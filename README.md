@@ -1,9 +1,9 @@
-# 🚀 BuildBuddy
+# 🚀 AutoDev-Engine
 An **Agentic AI** Software Engineer that Turns Natural Language into Real Applications.
 
-BuildBuddy is an end-to-end agentic AI system that takes a prompt like “create a calculator app” or “build a todo application” and automatically generates a complete, runnable project — including HTML/CSS/JS files, README, tests, and all supporting structure.
+ AutoDev-Engine is an end-to-end agentic AI system that takes a prompt like “create a calculator app” or “build a todo application” and automatically generates a complete, runnable project — including HTML/CSS/JS files, README, tests, and all supporting structure.
 
-Powered by **LangChain**, **LangGraph**, **Pydantic**, and **Groq LLMs**, BuilderBuddy mimics how real software is built:
+Powered by **LangChain**, **LangGraph**, **Pydantic**, and **Groq LLMs**, AutoDev-Engine mimics how real software is built:
 `planning → architecture → coding → file generation`.
 
 ---
@@ -27,7 +27,7 @@ Supports Groq's GPT-OSS models, OpenAI, Gemini, and local models via simple conf
 ---
 
 ## 🏗️ Architecture Overview
-BuildBuddy uses a LangGraph state machine with three core nodes:
+ AutoDev-Engine uses a LangGraph state machine with three core nodes:
 ```
 User Prompt
       ↓
@@ -94,7 +94,7 @@ Create a .env file in the project root:
 GROQ_API_KEY=your_key_here
 ```
 
-- Run BuildBuddy
+- Run  AutoDev-Engine
 ```
 python main.py --prompt "create a calculator app"
 ```
@@ -139,7 +139,7 @@ Supported:
 ---
 
 ## 🧠 Debugging with AI Agent Debugger (PyCharm)
-BuildBuddy integrates perfectly with PyCharm’s Agent Debugger:
+AutoDev-Engine integrates perfectly with PyCharm’s Agent Debugger:
 - Visualize planner → architect → coder transitions
 - Inspect internal state after each step
 - Track token usage and recursion depth
@@ -150,6 +150,6 @@ This massively improves reliability and explainability.
 ---
 
 ## 🏁 Final Notes
-BuildBuddy is a real demonstration of practical agentic AI engineering — combining structured reasoning, tool use, iterative coding, and explainability into one cohesive system.
+AutoDev-Engine is a real demonstration of practical agentic AI engineering — combining structured reasoning, tool use, iterative coding, and explainability into one cohesive system.
 
-Whether you're showcasing AI engineering skills for interviews or extending it into a full product, BuildBuddy provides a solid foundation.
+Whether you're showcasing AI engineering skills for interviews or extending it into a full product, AutoDev-Engine provides a solid foundation.
