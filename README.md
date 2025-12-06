@@ -1,10 +1,12 @@
 # 🚀 AutoDev-Engine
-An **Agentic AI** Software Engineer that Turns Natural Language into Real Applications.
+AutoDev-Engine is a fully autonomous AI development system that transforms plain-language instructions into complete, production-ready applications.
+Give it a prompt like “make a calculator” or “build a todo manager”, and it generates an entire working project — including the codebase, documentation, tests, and structured files.
 
- AutoDev-Engine is an end-to-end agentic AI system that takes a prompt like “create a calculator app” or “build a todo application” and automatically generates a complete, runnable project — including HTML/CSS/JS files, README, tests, and all supporting structure.
+Using an intelligent pipeline powered by LangChain, LangGraph, Pydantic, and Groq LLM models, AutoDev-Engine follows a workflow similar to real engineering teams:
 
-Powered by **LangChain**, **LangGraph**, **Pydantic**, and **Groq LLMs**, AutoDev-Engine mimics how real software is built:
-`planning → architecture → coding → file generation`.
+idea → project planning → architectural design → coding → file creation
+
+The system analyzes your request, designs a solution, breaks it down into implementable tasks, and finally writes the full project with clean, organized code.
 
 ---
 
